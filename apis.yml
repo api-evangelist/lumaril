@@ -1,4 +1,16 @@
 aid: lumaril
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumaril.png
 name: Lumaril
 description: 'Lumaril is a company surfaced as a portfolio company of lux-capital and added to the API
   Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead awaiting the
@@ -12,13 +24,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lumaril-domain-security.yml
+- type: Website
+  url: https://lumaril.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
